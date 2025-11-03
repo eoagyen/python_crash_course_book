@@ -40,6 +40,7 @@ print(f"Hello {third_guest}, sorry I cannot invite you to dinner")
 
 print(f"\nDear {guests[0]}, you are still invited to dinner on Saturday.")
 print(f"Dear {guests[1]}, you are still invited to dinner on Saturday.")
+print(len(guests))
 
 
 del guests[0:2]
